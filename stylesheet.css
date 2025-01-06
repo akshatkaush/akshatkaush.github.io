@@ -139,3 +139,76 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.experience-item {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+}
+
+.company-name {
+  font-size: 2.00rem;
+  margin: 0;
+}
+
+.job-title {
+  display: block;
+  font-style: italic;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+
+.duration {
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+.experience-details {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0 0 1.25rem 0;
+}
+
+.experience-details li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.tech-stack {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+  }
+  
+  .duration {
+    margin-top: 0.5rem;
+  }
+  
+  .experience-item {
+    padding: 1rem;
+  }
+}
+
+.grade {
+  display: block;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+

@@ -35,15 +35,18 @@
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <a href="https://leetcode.com/u/AkshatKaushal/">Leetcode</a> &nbsp;/&nbsp;
                   <a href="https://github.com/akshatkaush/">Github</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=4d3VkEsAAAAJ&hl=en&oi=sra">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=4d3VkEsAAAAJ&hl=en&oi=sra">Google Scholar</a> 
                   
                 </p>
               </td>
               <!-- <td style="padding:2.5%;width:40%;max-width:40%">
                 <a href="images/hyunyoung.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/hyunyoung.jpg" class="profile-photo"></a>
               </td> -->
-              <td style="padding: 20px 20px 20px 0px; width: 25%;">
-                <img class="profile-photo" alt="profile photo" src="images/ak.jpg">
+              <td style="padding: 20px 20px 20px 0px; width: 25%; text-align: center;">
+                <img class="profile-photo" alt="profile photo" src="images/ak.jpg" 
+                     style="width: 220px; height: auto; border-radius: 12px; 
+                            border: 3px solid rgba(200, 200, 200, 0.8); 
+                            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);">
             </td>
             </tr>
           </tbody></table>
@@ -105,88 +108,146 @@
             </tbody>
           </table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-top:-25px"><tbody>
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;vertical-align:top">
-                <h3 style="line-height: 0.5;" > University of Pennsylvania </h3>
-                <em>M.S.E. in Computer and Information Science</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>August 2024 - May 2026(Expected)</em>
-              </td>
-            </tr>
-      
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> Thapar University </h3>
-                <em>B.Engg. in Computer Science</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>July 2018 - June 2022</em>
-              </td>
-            </tr>
-
-      
-          </tbody></table>
+          <div class="experience-container">
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="company-info">
+                  <h3 class="company-name">University of Pennsylvania</h3>
+                  <span class="job-title">M.S.E. in Computer and Information Science</span>
+                  <span class="grade">GPA: 4.0/4.0</span>
+                </div>
+                <span class="duration">August 2024 - May 2026 (Expected)</span>
+              </div>
+            </div>
+          
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="company-info">
+                  <h3 class="company-name">Thapar University</h3>
+                  <span class="job-title">B.Engg. in Computer Science</span>
+                  <span class="grade">GPA: 9.26/10.0</span>
+                </div>
+                <span class="duration">July 2018 - June 2022</span>
+              </div>
+            </div>
+          </div>
+          
+          
 
           <table>
             <tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
-                    <h2>Work and Teaching Experiences</h2><br>
+                    <h2>Work Experiences</h2><br>
                 </td>
             </tr>
             </tbody>
           </table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-top:-25px"><tbody>
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> CS 8803 Deep Reinforcment Learning for Intel. Control</h3>
-                <em>Teaching Asistant</em>
-                <br>
-                <em>Georgia Institute of Technology</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Spring 2024</em>
-              </td>
-            </tr>
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> CS 3451 Computer Graphics </h3>
-                <em>Teaching Asistant</em>
-                <br>
-                <em>Georgia Institute of Technology</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Spring 2023</em>
-              </td>
-            </tr>
+          <div class="experience-container">
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="company-info">
+                  <h3 class="company-name">Salesforce</h3>
+                  <span class="job-title">Member of Technical Staff</span>
+                </div>
+                <span class="duration">July 2022 - July 2024</span>
+              </div>
+              
+              <ul class="experience-details">
+                <li>
+                  Contributed to building Next-Gen Personalization Platforms by designing type system databases, CRUD, validation layers, and data mapping with Data Cloud, handling 200K events per second, leading to 40%+ adoption and enhanced personalized experiences.
+                </li>
+                <li>
+                  Researched and implemented mechanisms to track adoption metrics for new products in the Experience Cloud, integrating unsupported type systems through validation layer instrumentation and cross-referencing with Salesforce Unified Data Dictionary.
+                </li>
+                <li>
+                  Implemented performance tests using EKG and Armada frameworks, providing critical insights into optimizing client-side caching, improving code change efficiency, and detecting slow processes, resulting in a 24% increase in overall product performance.
+                </li>
+                <li>
+                  Ensured 90%+ code coverage through comprehensive unit and functional testing ensuring a 0.995 fail-safe rate. Troubleshooted 30+ sev1 and 10+ sev0 issues within defined SLAs in legacy products, making 45k+ businesses at ease with 14 on-call rotations.
+                </li>
+              </ul>
+          
+              <div class="tech-stack">
+                <span>Tech Stack: Java, JavaScript, Spring, React, Armada, JUnit, Splunk, Prometheus</span>
+              </div>
+            </div>
+          </div>
 
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> Saige Research </h3>
-                <em>Research Intern</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Apr. 2021 - Dec. 2021</em>
-              </td>
-            </tr>
-      
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> Samsung Electronics </h3>
-                <em>Student Intern</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Jan. 2021 - Feb. 2021</em>
-              </td>
-            </tr>
-
-      
-          </tbody></table>
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="company-info">
+                <h3 class="company-name">OYO Rooms</h3>
+                <span class="job-title">Data Science Intern</span>
+              </div>
+              <span class="duration">Jan 2022 - Jun 2022</span>
+            </div>
             
-          </tbody></table>
+            <ul class="experience-details">
+              <li>
+                Productionized MLOps pipelines using PySpark, AWS, and CatBoost for hotel booking and realization prediction, processing 6 million data points with calibrated classifiers and plots for feature importance analysis, improving view-to-stay conversion by 8%.
+              </li>
+              <li>
+                Worked with SQL, Hive, and PyHive to design and optimize complex data extraction workflows from OYO's Metabase infrastructure, integrating multiple hotel and user-level features to create a robust feature set for machine learning models.
+              </li>
+              <li>
+                Applied hyperparameter tuning with advanced data augmentation (e.g., hotel location density, customer booking patterns) and post-model calibration with Platt scaling to enhance accuracy and optimize personalized payment recommendations.
+              </li>
+            </ul>
+        
+            <div class="tech-stack">
+              <span>Tech Stack: Python, Scikit-learn, MLOps, Pycaret</span>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="company-info">
+                <h3 class="company-name">Thapar University</h3>
+                <span class="job-title">Research Intern</span>
+              </div>
+              <span class="duration">Mar 2021 - Aug 2021</span>
+            </div>
+            
+            <ul class="experience-details">
+              <li>
+                Implemented a brain tumor segmentation and survival prediction framework for 4D-MRI voxels of the BraTS20 dataset on NVIDIA DGX, securing 32nd place achieving a 2.7% performance improvement over existing models through optimized architecture.
+              </li>
+              <li>
+                Designed an ensemble model with 3D-U shaped fully convolutional and pre-trained 2D residual networks, enhancing feature extraction using AWS S3 for efficient data handling, outperforming traditional models with a 15% reduction in training time.
+              </li>
+            </ul>
+        
+            <div class="tech-stack">
+              <span>Tech Stack: Python, TensorFlow, AWS S3, NVIDIA DGX</span>
+            </div>
+          </div>
+        
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="company-info">
+                <h3 class="company-name">Ideal AI</h3>
+                <span class="job-title">Computer Vision Intern</span>
+              </div>
+              <span class="duration">Apr 2020 - Sep 2020</span>
+            </div>
+            
+            <ul class="experience-details">
+              <li>
+                Developed computer vision pipelines from data collection to deployment, including projects like inventory management, and instance segmentation. Improved pre-trained model accuracy by 10% through post-processing architectures and implemented complex algorithms like SORT, SLIT imaging and Centroid Tracking.
+              </li>
+            </ul>
+        
+            <div class="tech-stack">
+              <span>Tech Stack: Python, OpenCV, PyTorch, Computer Vision</span>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+          
+          
       
     
 

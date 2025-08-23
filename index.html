@@ -7,13 +7,14 @@
 
     <meta name="author" content="Akshat Kaushal">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Akshat Kaushal - Computer Science Graduate Student at University of Pennsylvania specializing in AI/ML, with professional experience at Salesforce and research in robotics and deep learning.">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
@@ -22,26 +23,21 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Akshat Kaushal (WIP)
+                  Akshat Kaushal
                 </p>
-                <p>I am currently pursuing Masters in Computer Science at the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a 
-                  ‘work to learn’ approach. I have over two years of professional work experience as a software engineer assuming roles 
-                  of data science intern and full stack engineer. I am proficient in varied technologies related to full-stack development 
-                  like Java, javascript, SQL, JUnit, selenium, react, python, kotlin and in data science I am proficient in Python, R, Pytorch, SKLearn, Pyspark.
+                <p style="text-align: justify; line-height: 1.6;">
+                  I am currently pursuing Masters in Computer Science at the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a ‘work to learn’ approach. I have over two years of professional work experience as a software engineer assuming roles of data science intern and full stack engineer. I am proficient in varied technologies related to full-stack development like Java, JavaScript, SQL, JUnit, Selenium, React, Python, Kotlin and in data science I am proficient in Python, R, PyTorch, JAX, scikit-learn, etc.
+                  <br><br>
+                  At <strong>Adobe</strong>, I developed Agentic-AI Journey Graphs with Graph-of-Thoughts for personalized digital experiences. At <strong>Salesforce</strong>, I worked on personalization platforms as part of Experience Services under Platform Cloud, contributing to rules as well as AI-based personalization. At <strong>OYO Rooms</strong>, I worked in the data science team optimizing payment mode for the end user thereby increasing view-to-stay conversion. Recently, I built the first comprehensive open-source JAX implementation of Microsoft’s Aurora weather model.
                 </p>
-                <p style="text-align:center">
+                <p style="text-align:center; margin-top: 20px;">
                   <a href="mailto:akaush@upenn.edu">Email</a> &nbsp;/&nbsp;
-                  <!-- <a href="cv.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://leetcode.com/u/AkshatKaushal/">Leetcode</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/akshatkaush/">Github</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=4d3VkEsAAAAJ&hl=en&oi=sra">Google Scholar</a> 
-                  
+                  <a href="AkshatKaushal-Resume-2025Aug.pdf">Resume</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/akshatkaush/">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/akshatkaush/">GitHub</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=4d3VkEsAAAAJ&hl=en&oi=sra">Google Scholar</a>
                 </p>
               </td>
-              <!-- <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/hyunyoung.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/hyunyoung.jpg" class="profile-photo"></a>
-              </td> -->
               <td style="padding: 20px 20px 20px 0px; width: 25%; text-align: center;">
                 <img class="profile-photo" alt="profile photo" src="images/ak.jpg" 
                      style="width: 220px; height: auto; border-radius: 12px; 
@@ -56,7 +52,7 @@
             <tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
-                    <h2>Ongoing Projects </h2><br>
+                    <h2>Research Projects</h2><br>
                 </td>
             </tr>
             </tbody>
@@ -64,37 +60,48 @@
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-25px"><tbody>
             
-            <tr onmouseout="digit_ifm_stop()" onmouseover="digit_ifm_start()">
-              <td style="padding:20px;width:25%;vertical-align:top">
-                <div class="one">
-                  <div class="two" id='digit_ifm_image'><video  width=100% height=100% muted autoplay loop>
-                  <source src="project_teasers/digit_ifm/teaser.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video></div>
-                  <img src='project_teasers/digit_ifm/teaser.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function digit_ifm_start() {
-                    document.getElementById('digit_ifm_image').style.opacity = "1";
-                  }
-      
-                  function digit_ifm_stop() {
-                    document.getElementById('digit_ifm_image').style.opacity = "0";
-                  }
-                  digit_ifm_stop()
-                </script>
-              </td>
-
-              <td style="padding:20px;width:75%;vertical-align:top">
-                <span class="papertitle">Humanoid locomotion with learning-based method leveraging model-based control</span>
+            <!-- Aurora JAX Project (text-only) -->
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:top">
+                <a href="https://akshatkaush.github.io/aurora-jax/article/">
+                  <span class="papertitle">Microsoft's Aurora in JAX and PyTorch: A Foundation Model for Earth System Forecasting</span>
+                </a>
+                <br>
+                <em>Open Source Implementation</em>, 2025
+                <br>
+                <a href="https://akshatkaush.github.io/aurora-jax/article/">Project Page</a>
+                /
+                <a href="https://github.com/akshatkaush/aurora-jax">Code</a>
                 <p>
-                  Training the locomotion of full-sized humanoids is a challenging task and less investigated in a learning-based control society compared to quadrupedal robot locomotion. 
-                  Unlike quadrupeds, the humanoids have more complicated structures making it hard to use a straightforward model-free reinforcement learning approach.
-                  <br>
-                  In this project, we address this issue by utilizing our established framework, IFM, to enhance the robustness of humanoid locomotion, specifically solving instability in the reinforcement learning stage.
+                  First comprehensive open-source implementation in JAX with PyTorch interoperability. Translated the 1.3B‑parameter model from PyTorch to JAX, implemented full training loops, and benchmarked LoRA-based fine-tuning strategies.
                 </p>
               </td>
             </tr>
+
+            <!-- BraTS Research Project (text-only) -->
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:top">
+                <span class="papertitle">Brain Tumor Segmentation and Survival Prediction (BraTS 2020)</span>
+                <br>
+                <em>Research Project</em>, 2021
+                <p>
+                  Ensemble of 3D U‑Net and 2D ResNet architectures for 4D‑MRI voxel segmentation on BraTS20, achieving 32nd place with a 2.7% performance gain over baselines and 15% reduction in training time using AWS S3 optimized pipelines.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Twitter Campaigns Publication (text-only) -->
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:top">
+                <span class="papertitle">Analysis of Effectiveness of Indian Political Campaigns on Twitter</span>
+                <br>
+                Singhal, K., Sood, K., <strong>Kaushal, A.</strong>, Gehlot, V., Rana, P.S. (2024)
+                <br>
+                <a href="https://doi.org/10.1007/978-3-031-56700-1_17">DOI: 10.1007/978-3-031-56700-1_17</a>
+              </td>
+            </tr>
+
+
             </tbody>
             </table>
 
@@ -112,23 +119,54 @@
             <div class="experience-item">
               <div class="experience-header">
                 <div class="company-info">
-                  <h3 class="company-name">University of Pennsylvania</h3>
-                  <span class="job-title">M.S.E. in Computer and Information Science</span>
-                  <span class="grade">GPA: 4.0/4.0</span>
+                  <h3 class="company-name"><a href="https://www.upenn.edu/">University of Pennsylvania</a></h3>
+                  <span class="job-title">Master of Science in Computer and Information Science (AI Concentration)</span>
+                  <span class="grade">GPA: 3.88/4.0</span>
                 </div>
-                <span class="duration">August 2024 - May 2026 (Expected)</span>
+                <span class="duration">Philadelphia, PA, USA | May 2026</span>
               </div>
+              
+              <ul class="experience-details">
+                <li><strong>Coursework:</strong></li>
+                <li>Principles of Deep Learning</li>
+                <li>Machine Learning</li>
+                <li>Computer Vision & Computational Photography</li>
+                <li>Advanced Topics in Deep Learning</li>
+                <li>Networked Systems</li>
+                <li>Big Data Analytics</li>
+                <li>Statistics for Data Science</li>
+                <li>Software Systems</li>
+              </ul>
             </div>
           
             <div class="experience-item">
               <div class="experience-header">
                 <div class="company-info">
-                  <h3 class="company-name">Thapar University</h3>
-                  <span class="job-title">B.Engg. in Computer Science</span>
-                  <span class="grade">GPA: 9.26/10.0</span>
+                  <h3 class="company-name"><a href="https://www.thapar.edu/">Thapar Institute of Engineering and Technology</a></h3>
+                  <span class="job-title">Bachelor of Engineering in Computer Engineering</span>
+                  <span class="grade">GPA: 9.26/10</span>
                 </div>
-                <span class="duration">July 2018 - June 2022</span>
+                <span class="duration">Patiala, PB, India | Jun 2022</span>
               </div>
+              
+              <ul class="experience-details">
+                <li><strong>Coursework:</strong></li>
+                <li>Advanced Data Structures</li>
+                <li>Machine Learning</li>
+                <li>Database Management Systems</li>
+                <li>Deep Learning</li>
+                <li>Software Engineering</li>
+                <li>Analysis of Algorithms</li>
+                <li>Operating Systems</li>
+                <li>Computer Networks</li>
+                <li>Theory of Computation</li>
+                <li>Computer Architecture</li>
+                <li>Computer Graphics</li>
+                <li>Object Oriented Programming</li>
+                <li>Numerical Analysis</li>
+                <li>Discrete Mathematical Structures</li>
+                <li>Predictive Analytics using Statistics</li>
+              </ul>
             </div>
           </div>
           
@@ -148,30 +186,74 @@
             <div class="experience-item">
               <div class="experience-header">
                 <div class="company-info">
-                  <h3 class="company-name">Salesforce</h3>
-                  <span class="job-title">Member of Technical Staff</span>
+                  <h3 class="company-name">Adobe</h3>
+                  <span class="job-title">Software Engineering Intern</span>
                 </div>
-                <span class="duration">July 2022 - July 2024</span>
+                <span class="duration">San Jose, CA, USA | May 2025 - Aug 2025</span>
               </div>
               
               <ul class="experience-details">
                 <li>
-                  Contributed to building Next-Gen Personalization Platforms by designing type system databases, CRUD, validation layers, and data mapping with Data Cloud, handling 200K events per second, leading to 40%+ adoption and enhanced personalized experiences.
+                  Created Graph of Thought algorithms for Agentic-AI Journey Graph generation, enabling marketers to translate natural-language into personalized Digital Experience campaigns with integrated guardrails via A2A and MCP protocols, LangGraph and Pydantic AI.
                 </li>
                 <li>
-                  Researched and implemented mechanisms to track adoption metrics for new products in the Experience Cloud, integrating unsupported type systems through validation layer instrumentation and cross-referencing with Salesforce Unified Data Dictionary.
-                </li>
-                <li>
-                  Implemented performance tests using EKG and Armada frameworks, providing critical insights into optimizing client-side caching, improving code change efficiency, and detecting slow processes, resulting in a 24% increase in overall product performance.
-                </li>
-                <li>
-                  Ensured 90%+ code coverage through comprehensive unit and functional testing ensuring a 0.995 fail-safe rate. Troubleshooted 30+ sev1 and 10+ sev0 issues within defined SLAs in legacy products, making 45k+ businesses at ease with 14 on-call rotations.
+                  Developed intent matching, scoring, and terminology-expansions tailored to Graph-of-Thought models, leveraging FastAPI to inject business context and activate AI workflows through reasoning engine, enhancing Journey Graph scoring and relevance by 34%.
                 </li>
               </ul>
           
               <div class="tech-stack">
-                <span>Tech Stack: Java, JavaScript, Spring, React, Armada, JUnit, Splunk, Prometheus</span>
+                <span><strong>Technologies:</strong> LangGraph, PydanticAI, FastAPI, A2A, MCP</span>
               </div>
+            </div>
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="company-info">
+                  <h3 class="company-name">Salesforce</h3>
+                  <span class="job-title">Member of Technical Staff</span>
+                </div>
+                <span class="duration">Hyderabad, TG, IN | Jul 2022 - Jul 2024</span>
+              </div>
+              
+              <ul class="experience-details">
+                <li>
+                  <strong>Next-Gen Personalization Platform:</strong> Architected and developed type system databases, CRUD operations, validation layers, and data mapping with Data Cloud, processing 200K+ events per second and achieving 40%+ platform adoption rate for enhanced personalized customer experiences.
+                </li>
+                <li>
+                  <strong>Product Analytics & Metrics:</strong> Researched and implemented comprehensive adoption tracking mechanisms for Experience Cloud products, integrating unsupported type systems through validation layer instrumentation and cross-referencing with Salesforce Unified Data Dictionary.
+                </li>
+                <li>
+                  <strong>Performance Optimization:</strong> Designed and implemented performance testing suite using EKG and Armada frameworks, optimized client-side caching strategies, and improved code deployment efficiency, resulting in 24% overall product performance improvement.
+                </li>
+                <li>
+                  <strong>Production Reliability:</strong> Maintained 90%+ code coverage through comprehensive unit and functional testing, ensuring 99.5% system reliability. Led troubleshooting for 30+ Sev1 and 10+ Sev0 incidents within SLA requirements, supporting 45K+ enterprise customers through 14 on-call rotations.
+                </li>
+              </ul>
+          
+              <div class="tech-stack">
+                <span><strong>Technologies:</strong> Java, JavaScript, Spring Framework, React, Armada, JUnit, Selenium, Splunk, Prometheus, Kubernetes</span>
+              </div>
+            </div>
+
+            <div class="experience-item">
+            <div class="experience-header">
+              <div class="company-info">
+                <h3 class="company-name">University of Pennsylvania</h3>
+                <span class="job-title">Researcher - Predictive Intelligence Lab</span>
+              </div>
+              <span class="duration">Philadelphia, PA, USA | Jan 2025 - May 2025</span>
+            </div>
+            
+            <ul class="experience-details">
+              <li>
+                Single-handedly developed a JAX implementation of Microsoft’s 1.3B Aurora Earth model, converting massive PyTorch weights and code into a GPU-optimized setup with mixed-precision training, checkpointing, and kernel fusion for efficient model training.
+              </li>
+              <li>
+                Engineered parameter-efficient fine-tuning pipelines with LoRA integration and multi-step autoregressive training, managing terabytes of ECMWF data through hybrid PyTorch-JAX dataloaders while reducing memory footprint by 40%.
+              </li>
+            </ul>
+        
+            <div class="tech-stack">
+              <span><strong>Technologies:</strong> JAX, PyTorch, LoRA, XLA, ECMWF</span>
             </div>
           </div>
 
@@ -181,23 +263,23 @@
                 <h3 class="company-name">OYO Rooms</h3>
                 <span class="job-title">Data Science Intern</span>
               </div>
-              <span class="duration">Jan 2022 - Jun 2022</span>
+              <span class="duration">Gurugram, HR, IN | Jan 2022 - Jun 2022</span>
             </div>
             
             <ul class="experience-details">
               <li>
-                Productionized MLOps pipelines using PySpark, AWS, and CatBoost for hotel booking and realization prediction, processing 6 million data points with calibrated classifiers and plots for feature importance analysis, improving view-to-stay conversion by 8%.
+                <strong>MLOps Pipeline Development:</strong> Designed and productionized end-to-end ML pipelines using PySpark, AWS, and CatBoost for hotel booking prediction and revenue realization, processing 6M+ data points with calibrated classifiers, improving view-to-stay conversion rate by 8%.
               </li>
               <li>
-                Worked with SQL, Hive, and PyHive to design and optimize complex data extraction workflows from OYO's Metabase infrastructure, integrating multiple hotel and user-level features to create a robust feature set for machine learning models.
+                <strong>Data Engineering & Analytics:</strong> Architected complex data extraction workflows using SQL, Hive, and PyHive from OYO's Metabase infrastructure, integrating multi-dimensional hotel and user features to create robust feature sets for predictive modeling.
               </li>
               <li>
-                Applied hyperparameter tuning with advanced data augmentation (e.g., hotel location density, customer booking patterns) and post-model calibration with Platt scaling to enhance accuracy and optimize personalized payment recommendations.
+                <strong>Model Optimization:</strong> Implemented hyperparameter tuning with advanced feature engineering (hotel location density, customer booking patterns) and post-model calibration using Platt scaling, optimizing personalized payment recommendation systems.
               </li>
             </ul>
         
             <div class="tech-stack">
-              <span>Tech Stack: Python, Scikit-learn, MLOps, Pycaret</span>
+              <span><strong>Technologies:</strong> Python, PySpark, AWS, Scikit-learn, CatBoost, MLOps, PyHive, SQL, Metabase</span>
             </div>
           </div>
           <div class="experience-item">
@@ -206,51 +288,65 @@
                 <h3 class="company-name">Thapar University</h3>
                 <span class="job-title">Research Intern</span>
               </div>
-              <span class="duration">Mar 2021 - Aug 2021</span>
+              <span class="duration">Patiala, PB, IN | Mar 2021 - Aug 2021</span>
             </div>
             
             <ul class="experience-details">
               <li>
-                Implemented a brain tumor segmentation and survival prediction framework for 4D-MRI voxels of the BraTS20 dataset on NVIDIA DGX, securing 32nd place achieving a 2.7% performance improvement over existing models through optimized architecture.
+                <strong>Medical Image Analysis:</strong> Developed brain tumor segmentation and survival prediction framework for 4D-MRI analysis using BraTS20 dataset on NVIDIA DGX systems, achieving 32nd place globally with 2.7% performance improvement over baseline architectures.
               </li>
               <li>
-                Designed an ensemble model with 3D-U shaped fully convolutional and pre-trained 2D residual networks, enhancing feature extraction using AWS S3 for efficient data handling, outperforming traditional models with a 15% reduction in training time.
+                <strong>Deep Learning Architecture:</strong> Designed novel ensemble model combining 3D U-Net fully convolutional networks with pre-trained 2D ResNet architectures, optimizing feature extraction pipelines and reducing training time by 15% through efficient AWS S3 data handling.
               </li>
             </ul>
         
             <div class="tech-stack">
-              <span>Tech Stack: Python, TensorFlow, AWS S3, NVIDIA DGX</span>
+              <span><strong>Technologies:</strong> Python, TensorFlow, Keras, AWS S3, NVIDIA DGX, Medical Imaging, 3D CNNs</span>
             </div>
           </div>
-        
-          <div class="experience-item">
-            <div class="experience-header">
-              <div class="company-info">
-                <h3 class="company-name">Ideal AI</h3>
-                <span class="job-title">Computer Vision Intern</span>
+          </div>
+
+          <table>
+            <tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
+                    <h2>Personal Projects</h2><br>
+                </td>
+            </tr>
+            </tbody>
+          </table>
+
+          <div class="experience-container">
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="company-info">
+                  <h3 class="company-name">Distributed Deep Learning Network for 3‑Dimensional Mapping</h3>
+                  <span class="job-title">Course Project</span>
+                </div>
+                <span class="duration">Philadelphia, PA, USA | Oct 2024 - Dec 2024</span>
               </div>
-              <span class="duration">Apr 2020 - Sep 2020</span>
+              <ul class="experience-details">
+                <li>Introduced neural network training inspired by the DiNNO framework, developing CADMM-based optimization and weight-averaging consensus to balance local vs global model learning.</li>
+                <li>Evaluated on MNIST and 2D mapping, extended to 3D; addressed scalability, convergence, communication efficiency, and distributed training complexity.</li>
+              </ul>
             </div>
-            
-            <ul class="experience-details">
-              <li>
-                Developed computer vision pipelines from data collection to deployment, including projects like inventory management, and instance segmentation. Improved pre-trained model accuracy by 10% through post-processing architectures and implemented complex algorithms like SORT, SLIT imaging and Centroid Tracking.
-              </li>
-            </ul>
-        
-            <div class="tech-stack">
-              <span>Tech Stack: Python, OpenCV, PyTorch, Computer Vision</span>
+
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="company-info">
+                  <h3 class="company-name">Vision‑Based Auto‑Zooming Cameraman</h3>
+                  <span class="job-title">GitHub Project</span>
+                </div>
+                <span class="duration">Philadelphia, PA, USA | Sep 2024 - Dec 2024</span>
+              </div>
+              <ul class="experience-details">
+                <li>Engineered an autonomous camera system that adjusts zoom and focus in real-time for sports using YOLOv11 for detection, Gaussian blur heatmaps, and temporal smoothing.</li>
+                <li>Built post-game analytics: player clustering, team heatmaps, ball possession, and action timeline via an interactive dashboard.</li>
+              </ul>
             </div>
           </div>
-        </div>
-        </div>
-
 
           
-          
-      
-    
-
 
 
 
@@ -260,7 +356,7 @@
                 <br>
                 <p style="text-align:right;font-size:small;">
                   This template was borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>
-                  Last update: Jan.2025
+                  Last update: Aug.2025
                 </p>
               </td>
             </tr>
